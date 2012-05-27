@@ -137,6 +137,7 @@ INSTALLED_APPS = (
     'sorl.thumbnail',
 
     'gunicorn',
+#    'gunicorn',
     'apps.schools',
 )
 
