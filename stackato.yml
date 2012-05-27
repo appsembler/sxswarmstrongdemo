@@ -1,0 +1,35 @@
+cron: []
+env:
+  DJANGO_SETTINGS_MODULE: appsembler_settings
+  PYTHONPATH: /app/app:/app/app/sxswarmstrongdemo
+framework:
+  runtime: python27
+  type: python
+hooks:
+  post-staging: []
+  pre-running:
+#  - python /app/app/sxswarmstrongdemo/manage.py createsuperuser --noinput --username=appsembleradmin --email=admin@appsembler.com
+#  - python /app/app/sxswarmstrongdemo/manage.py changepassword2 appsembleradmin dq1l6xNC6n
+  pre-staging: []
+instances: 1
+mem: 64M
+name: armcms37
+requirements:
+  pip: []
+  pypm: []
+  running:
+    ubuntu: ['python-imaging',
+             'python-lxml',
+             'python-psycopg2',
+             'python-crypto',
+    ]
+  staging:
+    ubuntu: ['python-imaging',
+             'python-lxml',
+             'python-psycopg2',
+             'python-crypto',
+    ]
+services:
+  filesystem: filesystem-armcms37
+  postgresql: postgresql-armcms37
+
