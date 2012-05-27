@@ -136,7 +136,6 @@ INSTALLED_APPS = (
     'taggit',
     'sorl.thumbnail',
 
-    'gunicorn',
 #    'gunicorn',
     'apps.schools',
 )
