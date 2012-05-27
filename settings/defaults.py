@@ -1,7 +1,6 @@
 # Django settings for treedemo project.
 from .helpers import project_dir
 
-
 DEBUG = False
 TEMPLATE_DEBUG = False
 
@@ -34,7 +33,7 @@ USE_I18N = True
 # calendars according to the current locale
 USE_L10N = True
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'urls.development'
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
