@@ -1,5 +1,4 @@
 Django==1.3.1
-Fabric==1.3.3
 argparse==1.2.1
 armstrong.apps.content==1.0.1
 armstrong.apps.related_content==2.0.0
@@ -14,13 +13,11 @@ armstrong.hatband==1.2.3
 armstrong.utils.backends==1.0.0
 certifi==0.0.8
 chardet==1.0.1
-coverage==3.5.1
 django-model-utils==0.6.0
 https://github.com/django-mptt/django-mptt/tarball/1cc844bba21dd9c511d74e19821d490662471b99
 django-reversion==1.4
 django-taggit==0.9.3
 fudge==1.0.3
-pep8==0.6.1
 psycopg2==2.4.4
 sorl-thumbnail==11.05.2
 ssh==1.7.13
@@ -28,3 +25,4 @@ wsgiref==0.1.2
 https://github.com/dmclain/armstrong.apps.articles/tarball/related_content
 https://github.com/dmclain/armstrong.apps.embedded_video/tarball/master
 https://github.com/dmclain/armstrong.core.arm_content/tarball/render_video
+django-stackato
