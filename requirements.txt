@@ -24,5 +24,6 @@ ssh==1.7.13
 wsgiref==0.1.2
 https://github.com/dmclain/armstrong.apps.articles/tarball/related_content
 https://github.com/dmclain/armstrong.apps.embedded_video/tarball/master
-https://github.com/dmclain/armstrong.core.arm_content/tarball/render_video
+#https://github.com/dmclain/armstrong.core.arm_content/tarball/render_video
+-e git+git://github.com/armstrong/armstrong.core.arm_content.git#egg=armstrong.core.arm_content
 django-stackato
