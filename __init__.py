@@ -1,1 +1,1 @@
-stackato run python sxswarmstrongdemo/manage.py syncdb --noinput
+#
