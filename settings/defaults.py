@@ -1,5 +1,9 @@
 # Django settings for treedemo project.
-from .helpers import project_dir
+#from .helpers import project_dir
+import os
+def project_dir(*paths):
+    base = os.path.realpath(os.path.join(os.path.dirname(__file__), '..'))
+    return os.path.join(base, *paths)
 
 DEBUG = False
 TEMPLATE_DEBUG = False
